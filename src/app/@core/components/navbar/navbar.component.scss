@@ -1,0 +1,21 @@
+// navbar
+nav{
+    border-bottom: 1px solid var(--mainTextColor);
+    background-color: white !important;
+    ul{
+        li{
+            a{
+                color:var(--link);
+                text-transform: capitalize;
+                font-weight: 500;
+                opacity: 0.5;
+            }
+        }
+    }
+}
+.avtive{
+    color:var(--mainColor) !important;
+    opacity: 1 !important;
+
+}
+

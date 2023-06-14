@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <span><img src="assets/logo/logo.svg" alt="" width="40px"></span>
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      (click)="rightAligned.toggle()"
+      aria-controls="navbarRightAlignExample"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div
+      class="collapse navbar-collapse"
+      id="navbarRightAlignExample"
+      mdbCollapse
+      #rightAligned="mdbCollapse"
+    >
+      <!-- Left links -->
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/home"  routerLinkActive="avtive" aria-current="page" href="#">{{ "navbar.home" | translate }} </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">{{ "navbar.Menu" | translate }} </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">{{ "navbar.About_Us" | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">{{ "navbar.Subscriptions" | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">{{ "navbar.Contact" | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">{{ "navbar.Blog" | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <select class="form-select"(change)="changeLang($event)" aria-label="Default select example">
+            <option selected value="en">EN</option>
+            <option value="ar">AR</option>
+          </select>
+        </li>
+      
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>

@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+:root{
+    --mainColor:#F6745E;
+    --secondary:#D8D258;
+    --mainTextColor:#AAAAAA;
+    --link: #403C39;
+    --bg-card: #F5F5F5;
+
+}
+body{
+     font-family: 'Roboto', sans-serif;;
+}

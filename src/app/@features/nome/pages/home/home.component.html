@@ -1,0 +1,92 @@
+<section class=" header mb-4">
+    <div class="row d-flex align-items-center justify-content-between mb-4">
+        <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12 mb-4">
+            <h2><span class="Healthy">Healthy</span> food, healthylife, full tummy </h2>
+            <p class="text">we serve not only healthy food put also tasty filling and un tritions Food</p>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control search py-2 rounded-end-4" placeholder="Search For Meal" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div  class="row d-flex align-items-center justfiy-content-center">
+                <div class=" col-6">
+                    <button type="button" class="px-5 rounded-5 btn btn-main  w-100 py-2">main</button>
+                </div>
+                <div class=" col-6">
+                    <button type="button" class="px-5 rounded-5 btn btn-subscriptions  w-100 col-6 py-2">subscriptions</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12">
+            <img src="assets/home/food.jpeg" alt="" width="100%" class="rounded-5">
+        </div>
+    </div>
+
+    <div class="row d-flex align-items-center mb-4 contactUS">
+        <div class=" p-5 hero col-lg-8 col-md-8 col-sm-12 col-xs-12 pounded-end" style="background-image: url(assets/home/food.jpeg);">
+            <p class="textUS">We serve not only healthy food but also tasty, filling <br> and nutritious food</p>
+        </div>
+        <div class=" p-5 col-lg-4 col-md-4 col-sm-12 col-xs-12 container-Contact">
+            <button type="button" class="btn btn-white px-5 py-3 ">ContactUs</button>
+        </div>
+    </div>
+
+    <div class="carousel mb-4">
+        <owl-carousel-o [options]="customOptions">
+            <ng-container *ngFor="let item of [1,2,3,4,5,6,7,8];let e = odd">
+                <ng-template carouselSlide>
+                    <div class="d-flex flex-column justfiy-content-center align-items-center text-center bg-main p-4 rounded-4" [ngClass]="e ?'bg-change':''">
+                        <div class="p-4"><img src="assets/home/food.jpeg" alt="" width="50px"></div>
+                        <h3 class="title">body buding</h3>
+                        <ul class="menu">
+                            <li>Breakfast</li>
+                            <li>Lunch</li>
+                            <li>Dinner</li>
+                            <li>Salad</li>
+                            <li>Soup</li>
+                            <li>Snack</li>
+                        </ul>
+                        <h6>A month, a week, two weeks All days of the week except</h6>
+                        <span >Thursday</span>
+                        <button type="button" class="px-5 rounded-5 btn btn-main  w-100 py-2">main</button>
+                    </div>
+                </ng-template>
+            </ng-container>  
+        </owl-carousel-o>
+    </div>
+
+    <div class="proplems p-4 rounded-5 mb-5">
+        <div class=" row d-flex align-items-center">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <img src="assets/home/food.jpeg" alt="" width="100%" class="rounded-5">
+            </div>
+            <div class="col-lg-7 col-md-10 col-sm-10 col-xs-10">
+                <h5 class="subscription">Create your own custom subscription</h5>
+                <p class="program">Choose how many meals in your program <br> Choose the meal weight</p>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                <button type="button" class="px-5 rounded-5 btn btn-main  w-100 py-2">More details</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="submit">
+        <h3 class="text-center title mb-4">Submit You Contact to Send you an offer</h3>
+        <div class="row d-flex justify-content-center info">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <div class="border-bottom pb-3">
+                    <span class="mb-4 name">Your name</span>
+                    <h6 class>Ahmedadel</h6>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <div class=" border-bottom pb-3">
+                    <span class="mb-4 phone">Phone Number</span>
+                    <h6>0100 11101 111</h6>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <button type="button" class="px-5 rounded-5 btn btn-main py-2">Submit</button>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,50 @@
+{
+    "navbar":{
+        "home":"home",
+        "Menu":"Menu",
+        "About_Us":"About Us",
+        "Subscriptions":"Subscriptions",
+        "Contact":"Contact",
+        "Blog":"Blog"
+    },
+    "footer":{
+        "lorem":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "Our_Company":"Our Company",
+        "home":"home",
+        "Menu":"Menu",
+        "About_Us":"About Us",
+        "Subscriptions":"Subscriptions",
+        "Our_Clients":"Our Clients",
+        "Blog":"Blog",
+        "privacy":"privacy",
+        "Join_Us":"Join Us"
+
+    },
+    "home":{
+        "Healthy":"Healthy",
+        " food_healthylife_full_tummy ":" food, healthylife, full tummy ",
+        "we_serve":"we serve not only healthy food put also tasty filling and un tritions Food",
+        "subscriptions":"subscriptions",
+        "filling":"We serve not only healthy food but also tasty, filling",
+        "and":"and nutritious food",
+        "ContactUs":"ContactUs",
+        "body_buding":"body buding",
+        "Breakfast":"Breakfast",
+        "Lunch":"Lunch",
+        "Dinner":"Dinner",
+        "Salad":"Salad",
+        "Soup":"Soup",
+        "Snack":"Snack",
+        "A_month":"A month, a week, two weeks All days of the week except",
+        "Thursday":"Thursday",
+        "main":"main",
+        "custom_subscription":"Create your own custom subscription",
+        "program":"Choose how many meals in your program",
+        "More details":"More details",
+        "Submit":"Submit You Contact to Send you an offer",
+        "Your_name":"Your name",
+        "Ahmed_ade":"Ahmed ade",
+        "Phone_Number":"Phone Number",
+        "Submit":"Submit"
+    }
+}

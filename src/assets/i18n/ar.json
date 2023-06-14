@@ -1,0 +1,49 @@
+{
+    "navbar":{
+        "home":"الصفحه الرئيسيه",
+        "Menu":"القائمة ",
+        "About_Us":"معلومات عنا",
+        "Subscriptions":"الاشتراكات",
+        "Contact":"اتصال",
+        "Blog":"مدونة"
+    },
+    "footer":{
+        "lorem":"Lorem ipsum dolor sit amet، consectetur adipiscing elit، sed do eiusmod tempor incidunt ut labore et dolore.",
+        "Our_Company":"شركتنا",
+        "home":"الصفحه الرئيسيه",
+        "Menu":"القائمة ",
+        "About_Us":"معلومات عنا",
+        "Subscriptions":"الاشتراكات",
+        "Our_Clients":"عملائنا",
+        "Blog":"مدونة",
+        "privacy":"خصوصية",
+        "Join_Us":"انضم إلينا"
+    },
+    "home":{
+        "Healthy":"صحيح",
+        " food_healthylife_full_tummy ":"طعام ، حياة صحية ، بطن ممتلئ ",
+        "we_serve":"نحن لا نقدم طعامًا صحيًا فحسب ، بل نقدم أيضًا طعامًا شهيًا ومغذيًا",
+        "main":"رئيسي",
+        "subscriptions":"الاشتراكات",
+        "filling":"نحن لا نقدم طعامًا صحيًا فحسب ، بل نقدم أيضًا طعامًا لذيذًا وشبعًا",
+        "and":"والطعام المغذي",
+        "ContactUs":"اتصل بنا",
+        "body_buding":"اتصل بنا",
+        "Breakfast":"إفطار",
+        "Lunch":"غداء",
+        "Dinner":"عشاء",
+        "Salad":"سلطة",
+        "Soup":"حساء",
+        "Snack":"وجبة خفيفة",
+        "A_month":"شهر ، اسبوع ، اسبوعان كل ايام الاسبوع ماعدا",
+        "Thursday":"يوم الخميس",
+        "custom_subscription":"قم بإنشاء اشتراكك المخصص",
+        "program":"اختر عدد الوجبات في برنامجك",
+        "More details":"المزيد من التفاصيل",
+        "Submet":"إرسال جهة الاتصال الخاصة بك لإرسال عرض لك",
+        "Your_name":"اسمك",
+        "Ahmed_ade":"أحمد عادل",
+        "Phone_Number":"رقم التليفون",
+        "Submit":"يُقدِّم"
+    }
+}
